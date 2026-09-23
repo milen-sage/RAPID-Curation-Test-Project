@@ -75,7 +75,7 @@ The script:
 
 ### `03_create_doc_processing_compute_task.py`
 
-Creates a document-processing Compute Task using the Synapse REST API.
+Creates a document-processing Compute Task using the Synapse REST API. E.g the task performs ETL operations converting inputs like PDFs, CSVs to the target schema specified in the Curation task above.
 
 The script uses the authenticated Synapse Python client for REST calls, so a separate HTTP authentication implementation is not needed.
 
@@ -152,7 +152,15 @@ syn = Synapse()
 syn.login()
 ```
 
-Alternatively, you can configure authentication using `~/.synapseConfig`.
+Alternatively, you can configure authentication creating a `~/.synapseConfig` file and adding the section
+
+```python
+[authentication]
+
+authtoken = 
+```
+
+You can obtain your authentication token by going to Synapse, clicking on your profile icon, and then accessing  Account Settings -> Personal Access Tokens
 
 ---
 
