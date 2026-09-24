@@ -66,7 +66,7 @@ Creates the RecordSet-based curation workflow.
 
 The script:
 
-1. uploads a CSV containing the initial records;
+1. uploads a CSV containing the initial records - it can be empty;
 2. creates a `RecordSet` in the `TargetRecordSet` folder;
 3. assigns one or more required upsert keys;
 4. binds a registered Synapse JSON Schema to the RecordSet;
