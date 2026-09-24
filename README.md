@@ -71,7 +71,7 @@ The script:
 3. assigns one or more required upsert keys;
 4. binds a registered Synapse JSON Schema to the RecordSet;
 5. creates a record-based Curation Task associated with the RecordSet; and
-6. optionally creates a Grid session for that Curation Task, if Grid creation is enabled in the script.
+6. optionally (recommended) creates a Grid session for that Curation Task, if Grid creation is enabled in the script.
 
 ### `03_create_doc_processing_compute_task.py`
 
