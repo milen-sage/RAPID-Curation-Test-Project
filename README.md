@@ -251,6 +251,9 @@ Configure the registered Synapse JSON Schema:
 ```python
 SCHEMA_URI = "YOUR_SCHEMA_URI_HERE"
 ```
+You can find all registered schemas in Synapse here: https://sage-bionetworks.github.io/core-models/ 
+
+See the URI column.
 
 ## Configure the upsert key
 
