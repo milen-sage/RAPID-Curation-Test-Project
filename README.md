@@ -157,7 +157,7 @@ Alternatively, you can configure authentication creating a `~/.synapseConfig` fi
 ```python
 [authentication]
 
-authtoken = 
+authtoken = your_token_here
 ```
 
 You can obtain your authentication token by going to Synapse, clicking on your profile icon, and then accessing  Account Settings -> Personal Access Tokens
